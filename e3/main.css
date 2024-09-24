@@ -1,0 +1,81 @@
+
+body{
+    font-family: "PT Sans Narrow";
+    margin-top: 50px; 
+    margin-right: 22%; 
+    margin-left: 22%; 
+    margin-bottom:100px;
+    padding: 20px; 
+    font-size: 1.3em; 
+    line-height:1.5em ;
+}
+
+h1{
+    font-family:"Jacquarda Bastarda 9 Charted", serif;
+    color:blue;
+    font-size: 4em;
+}
+
+p{
+    color:rgb(255, 0, 247);
+}
+
+a{
+    color: white; 
+    background-color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue; 
+}
+
+.pagenav{
+    color: black; 
+    font-size: 2em;
+    font-family:"Jacquarda Bastarda 9 Charted", serif;  
+}
+
+a:visited{
+    color: blue; 
+    background-color: white; 
+}
+
+.greenback{
+    background-color: rgb(253, 245, 172);
+    padding:10px; 
+}
+
+.greenback:hover{
+    border:2px solid transparent; 
+    padding: 10px;
+    box-shadow: 0 0 100px rgba(255, 0, 208, 0.5);
+}
+
+::selection{
+    background-color:rgb(111, 255, 168);
+}
+
+.right-align{
+    font-family:"Jacquarda Bastarda 9 Charted", serif;
+    font-size: 2em; 
+    text-align: right; 
+}
+
+b{
+    font-size:1.3em; 
+    line-height: 1.35em; 
+    font-family: "PT Serif", serif;
+    font-weight: 400; 
+    display: block; 
+    margin-top: 100px; 
+}
+
+.handmade{
+    font-family:"Jacquarda Bastarda 9 Charted", serif;
+    color:rgb(255, 0, 247); 
+} 
+
+.handmade:hover{
+    font-size:2em; 
+}
