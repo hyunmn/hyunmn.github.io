@@ -1,11 +1,10 @@
-
+.container{
+    width: 50%;
+    margin:0 auto; 
+}
 body{
     font-family: "PT Sans Narrow";
-    margin-top: 50px; 
-    margin-right: 22%; 
-    margin-left: 22%; 
-    margin-bottom:100px;
-    padding: 20px; 
+    padding: 50px; 
     font-size: 1.3em; 
     line-height:1.5em ;
 }
@@ -20,35 +19,32 @@ p{
     color:rgb(255, 0, 247);
 }
 
+
 a{
-    color: white; 
-    background-color: blue;
+    color: blue; 
     text-decoration: none;
 }
 
 a:hover{
-    color: blue; 
+    color: white; 
+    background-color: blue;
 }
 
+
 .pagenav{
-    color: black; 
     font-size: 2em;
     font-family:"Jacquarda Bastarda 9 Charted", serif;  
 }
 
-a:visited{
-    color: blue; 
-    background-color: white; 
-}
-
 .greenback{
     background-color: rgb(253, 245, 172);
-    padding:10px; 
+    padding: 10px;
+    margin-top: 2em; 
+    margin-bottom: 2em;  
 }
 
 .greenback:hover{
-    border:2px solid transparent; 
-    padding: 10px;
+    background-color: transparent;
     box-shadow: 0 0 100px rgba(255, 0, 208, 0.5);
 }
 
@@ -78,4 +74,12 @@ b{
 
 .handmade:hover{
     font-size:2em; 
+}
+
+.first{
+    padding-top: 20px; 
+    color: rgb(255, 0, 247); 
+    font-family: "Jacquarda Bastarda 9 Charted", serif;
+    font-size: 1.3em; 
+    line-height:1.5em; 
 }
