@@ -192,15 +192,15 @@ body {
   left: 10px;
 }
 
-.bottompara{
+.parabottom{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
-  background-color: rgb(6, 255, 180);
+  background-color: rgb(6, 255, 180); 
   box-shadow: 0 0 25px rgb(6, 255, 180);
   color: rgb(0, 0, 0);
   padding: 5px;
   position: absolute;
-  bottom:0px;
+  bottom:30px;
   left: 10px;
 }
 
@@ -217,7 +217,9 @@ body {
 }
 
 .refresh-button:hover {
-  box-shadow: 0 0 25px rgb(6, 255, 180);
+  background-color: rgb(255, 93, 34); 
+  box-shadow: 0 0 25px rgb(255, 93, 34); 
+  color: white; 
 }
 
 

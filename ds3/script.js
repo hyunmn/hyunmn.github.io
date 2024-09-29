@@ -61,16 +61,16 @@ document.querySelectorAll('.draggable').forEach(dragElement);
       function applyFilter(elmnt, zone) {
         switch (zone) {
           case 'green':
-            elmnt.style.filter = 'sepia(1) saturate(100%) hue-rotate(90deg)'; // Green effect
+            elmnt.style.filter = 'sepia(1) saturate(110%) hue-rotate(80deg)'; // Green effect
             break;
           case 'blue':
-            elmnt.style.filter = 'sepia(1) saturate(100%) hue-rotate(150deg)'; // Blue effect
+            elmnt.style.filter = 'sepia(1) saturate(130%) hue-rotate(150deg)'; // Blue effect
             break;
           case 'red':
             elmnt.style.filter = 'sepia(1) saturate(150%) hue-rotate(-30deg)'; // Red effect
             break;
           case 'grayscale':
-            elmnt.style.filter = 'grayscale(100%)'; // Grayscale effect
+            elmnt.style.filter = 'sepia(1) saturate(110%) hue-rotate(180deg)'; // Grayscale effect
             break;
           default:
             elmnt.style.filter = '';
