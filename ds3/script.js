@@ -70,7 +70,7 @@ document.querySelectorAll('.draggable').forEach(dragElement);
             elmnt.style.filter = 'sepia(1) saturate(150%) hue-rotate(-30deg)'; // Red effect
             break;
           case 'grayscale':
-            elmnt.style.filter = 'sepia(1) saturate(150%) hue-rotate(179deg)'; // Grayscale effect
+            elmnt.style.filter = 'sepia(1) saturate(200%) hue-rotate(180deg)'; // Grayscale effect
             break;
           default:
             elmnt.style.filter = '';
