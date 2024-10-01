@@ -1,0 +1,421 @@
+body{
+    margin:0; 
+    padding:0;
+}
+
+.box{
+    display: flex; 
+    align-items:baseline; 
+    position:absolute; 
+    bottom: 40px; 
+    right:40px; 
+
+}
+
+/* h1 _______________________________________________________________*/ 
+#h-1{
+    width: 60px; 
+    height: 100px;
+    position: relative; 
+    top: 20px;
+    left: 20px;
+    margin: 10px;
+}
+
+[class^="stroke-"]{
+    background-color: red; 
+}
+
+.stroke-h{ 
+    width: 20px; 
+    height: 20px; 
+    position: absolute; 
+    top: 40px;
+    left: 20px;
+}
+
+.stroke-v{
+    width: 20px; 
+    height: 100px; 
+}
+
+.stroke-v-2{
+    width: 20px; 
+    height: 60px; 
+    position: absolute; 
+    top: 40px;
+    left: 40px;
+}
+
+/* h2 ________________________________________________________________*/ 
+#h-2{
+    width: 180px; 
+    height: 210px;
+    position: relative; 
+    left: 20px;
+    top: 20px;
+    margin:10px;
+}
+
+.stroke-h2{ 
+    width: 30px; 
+    height: 30px; 
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+}
+.stroke-h2-2{ 
+    width: 30px; 
+    height: 30px; 
+    position: absolute; 
+    bottom: 0px;
+    left: 0px;
+}.stroke-h2-3{ 
+    width: 30px; 
+    height: 30px; 
+    position: absolute; 
+    bottom: 0px;
+    left: 60px;
+}.stroke-h2-4{ 
+    width: 60px; 
+    height: 30px; 
+    position: absolute; 
+    top: 90px;
+    left: 60px;
+}
+.stroke-h2-5{ 
+    width: 30px; 
+    height: 30px; 
+    position: absolute; 
+    bottom: 0px;
+    right:0px; 
+}
+
+.stroke-v2{ 
+    width: 30px; 
+    height: 210px; 
+    position: absolute; 
+    top: 0px;
+    left: 30px;
+}
+
+.stroke-v2-2{ 
+    width: 30px; 
+    height: 120px; 
+    position: absolute; 
+    top: 90px;
+    left: 120px;
+}
+
+/* h3 ________________________________________________________________*/ 
+#h-3{
+    width: 240px; 
+    height: 280px;
+    position: relative; 
+    left: 20px;
+    top: 20px;
+    margin:10px;
+}
+
+.stroke-h3{
+    width: 40px; 
+    height: 40px; 
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+}
+
+.stroke-h3-2{
+    width: 40px; 
+    height: 200px; 
+    position: absolute; 
+    top: 40px; 
+    left: 40px;
+}
+
+.stroke-h3-3{
+    width: 80px; 
+    height: 40px; 
+    position: absolute; 
+    top: 120px; 
+    left: 80px;
+}
+
+.stroke-h3-4{
+    width: 40px; 
+    height: 120px; 
+    position: absolute; 
+    top: 120px; 
+    left: 160px;
+}
+
+.stroke-h3-5{
+    width: 40px; 
+    height: 40px; 
+    position: absolute; 
+    bottom:0px; 
+    left: 0px;
+}
+
+.stroke-h3-6{
+    width: 40px; 
+    height: 40px; 
+    position: absolute; 
+    bottom:0px; 
+    right: 80px;
+}
+
+.stroke-h3-7{
+    width: 40px; 
+    height: 40px; 
+    position: absolute; 
+    bottom:0px; 
+    right: 0px;
+}
+
+/* h4 ________________________________________________________________*/ 
+
+[class^="stroke-h4"]{
+    border: solid 15px white; 
+}
+
+#h-4{
+    width: 280px; 
+    height: 490px;
+    position: relative; 
+    left: 20px;
+    top: 20px;
+    margin:10px;
+}
+
+.stroke-h4{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 0px;
+}
+
+.stroke-h4-2{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 70px;
+}
+
+.stroke-h4-3{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 140px;
+}
+
+.stroke-h4-4{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 210px;
+}
+
+.stroke-h4-5{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 280px;
+}
+
+.stroke-h4-6{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 350px;
+}
+
+.stroke-h4-7{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 420px;
+}
+
+.stroke-h4-8{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:70px;
+    top: 210px;
+}
+
+.stroke-h4-9{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:140px;
+    top: 210px;
+}
+
+.stroke-h4-10{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:210px;
+    top: 210px;
+}
+
+.stroke-h4-11{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:210px;
+    top: 280px;
+}
+
+.stroke-h4-12{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:210px;
+    top: 350px;
+}
+
+.stroke-h4-13{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:210px;
+    bottom:0; 
+}
+
+/* h5 ________________________________________________________________*/ 
+
+#h-5{
+    width: 400px; 
+    height: 700px;
+    position: relative; 
+    left: 20px;
+    top: 20px;
+    margin:10px;
+}
+
+.stroke-h5{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:0; 
+    left:0; 
+}
+
+.stroke-h5-2{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:100px; 
+    left:0; 
+}
+
+.stroke-h5-3{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:200px; 
+    left:0; 
+}
+
+.stroke-h5-4{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:300px; 
+    left:0; 
+}
+
+.stroke-h5-5{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:400px; 
+    left:0; 
+}
+
+.stroke-h5-6{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:500px; 
+    left:0; 
+}
+
+.stroke-h5-7{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:600px; 
+    left:0; 
+}
+
+.stroke-h5-8{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:300px; 
+    left:100px; 
+}
+
+.stroke-h5-9{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:300px; 
+    left:200px; 
+}
+
+.stroke-h5-10{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:300px; 
+    left:300px; 
+}
+
+.stroke-h5-11{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:400px; 
+    right:0
+}
+
+.stroke-h5-12{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:500px; 
+    right:0
+}
+
+.stroke-h5-13{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    border-radius: 50%;
+    top:600px; 
+    right:0
+}
