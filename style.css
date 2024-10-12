@@ -1,3 +1,49 @@
+
+body{
+    margin:1%; 
+
+	/*	define a CSS variable */
+	--accent-color: rgb(0,0,255);
+} 
+
+
+a{
+	color: blue;
+}
+
+
+.details{
+	line-height: 1.3;
+	color: var(--accent-color);
+}
+
+
+button{
+	/* border: 2px solid var(--accent-color); */
+	padding: 0.5rem;
+	margin-bottom: 1rem; 
+}
+
+button:hover{
+	background: rgb(200 200 200);
+	cursor: pointer;
+}
+
+
+/*	DARK MODE STYLES GO HERE */
+
+body.darkmode {
+	background: black;
+	color: white;
+
+	/*	redefine a CSS variable */
+	--accent-color: rgb(0,255,0);
+}
+
 .ds3{
     color: white; 
+}
+
+body.darkmode .ds3{
+	color: black; 
 }

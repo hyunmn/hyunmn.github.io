@@ -1,0 +1,204 @@
+body{
+    display: flex; 
+}
+
+/* h4 ________________________________________________________________*/ 
+
+#h-4{
+    width: 280px; 
+    height: 490px;
+    position: relative;  
+    margin: 0 auto; 
+    top:200px; 
+}
+
+
+[class^="stroke-h4"]{
+    border: solid 15px white; 
+    background-color: grey ;
+}
+
+.stroke-h4{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    background-color: rgb(120, 26, 26); 
+}
+
+.popup {
+    position: absolute; 
+    top: 100px;
+    left: 100px;
+    color: rgb(26, 72, 189);
+    font-size: 18px;
+    display:none; 
+}
+
+.stroke-h4:hover ~ .stroke-h4-11{
+   background-color: rgb(146, 178, 178); 
+}
+
+.stroke-h4-3:hover ~ .popup {
+    color: rgb(255, 0, 0);
+}
+
+.stroke-h4-2{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 70px;
+    transition: transform 0.5s; 
+    transition-timing-function: ease-in;
+}
+
+.stroke-h4-2:hover{
+   transform: translateX(140px); 
+}
+
+.stroke-h4-3{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 140px;
+}
+
+.stroke-h4-4{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 210px;
+}
+
+.stroke-h4-5{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 280px;
+}
+
+.stroke-h4-6{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 350px;
+}
+
+.stroke-h4-7{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:0px;
+    top: 420px;
+}
+
+@keyframes movement{
+    0% {
+        top: 420px;
+        left: 0;
+        background-color: gray;
+      }
+      25% {
+        top: 420px;
+        left: -70px;
+        background-color: rgb(146, 178, 178); 
+      }
+      50% {
+        top: 490px;
+        left: -70px;
+      }
+      75% {
+        top: 490px;
+        left: -140px;
+      }
+      100% {
+        top: 560px;
+        left: -140px;
+        background-color: rgb(120, 26, 26); 
+      }
+    }
+
+.stroke-h4-7:hover{
+    animation-name: movement; 
+    animation-duration: 2s; 
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in; 
+}
+
+.stroke-h4-8{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:70px;
+    top: 210px;
+}
+
+.stroke-h4-9{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:140px;
+    top: 210px;
+}
+
+.stroke-h4-10{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:210px;
+    top: 210px;
+}
+
+.stroke-h4-11{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:210px;
+    top: 280px;
+}
+
+.stroke-h4-12{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:210px;
+    top: 350px;
+}
+
+.stroke-h4-13{
+    width: 40px; 
+    height: 40px;
+    position: absolute; 
+    left:210px;
+    bottom:0; 
+    
+}
+
+.stroke-h4-13:hover{
+animation-name: colors;
+animation-duration: 2s;
+animation-timing-function: ease-in;
+animation-delay: 0s;
+animation-iteration-count: 3;
+animation-direction: normal;
+animation-play-state: running;
+animation-fill-mode: none;	
+
+}
+
+@keyframes colors {
+	0% {
+		background-color: grey;
+}
+50% {
+background-color: rgb(154, 196, 209);
+}
+100% {
+background-color:  rgb(120, 26, 26);
+}
+}

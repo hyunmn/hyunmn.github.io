@@ -1,8 +1,7 @@
-.container{
-    width: 50%;
-    margin:0 auto; 
-}
+
 body{
+    width:50%;
+    margin:0 auto; 
     font-family: "PT Sans Narrow";
     padding: 50px; 
     font-size: 1.3em; 
