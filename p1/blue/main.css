@@ -1,0 +1,81 @@
+.homeicon{
+    background-color: white; 
+    width: 35px; 
+    height: 50px; 
+    position: absolute; 
+    z-index: 100; 
+    top:20px; 
+    left: 20px; 
+    border-style: dotted;
+    border-width: 2px;
+    border-color:blue;
+
+}
+
+.door-knob{
+    position: absolute; 
+    width:8px; 
+    height:8px; 
+    background-color: blue;
+    border-radius: 50%;
+    right:2px;
+    top:20px;
+}
+
+body{
+    background-color: blue;
+    margin:0;
+}
+
+p{
+    font-size:24px; 
+    color:white;
+}
+
+.blue-wrapper{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin:0; 
+    height:100vh;
+    flex-direction: column;
+
+}
+
+.blue-image{
+    width:200px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color:rgb(255, 255, 255); 
+}
+
+.blue-image:hover{
+    border-style: double;
+    
+}
+
+.blue-text{
+    width:200px;
+    padding-top: 10px;
+    font-size:1rem;
+}
+.side{
+    margin-left:20px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color:rgb(255, 255, 255); 
+    position:absolute; 
+    top:100px; 
+    width:110px;
+
+}
+
+.in-side{
+    position:relative;
+    width:100px;
+    padding:5px;
+}
+
+.para{
+    width:50%;
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+
+  
+    <div id="home">
+      <img id="home-image" src="image/home.png">
+      <button class="popup-btn">?</button>
+      <div class="popup hidden">
+        <div class="content">
+          <span class="close">&times;</span>
+          <p>“My Room” is a digital archive of items from my room that reflect my tastes, values, and inspirations. Starting from an object, clicking a <span style="color:rgb(223, 43, 43)">hyperlink</span> reveals new information—a stream of my thoughts. As you explore, each click opens new pages, inviting you to follow the connections. Each item, from books to artworks, offers a snapshot of what resonates with me as a designer and artist, focusing on personal expression over polished design.</p>
+        </div>
+      </div>
+    </div>
+
+    <a href="greenlamp/index.html" class="item-greenlamp"></a>
+
+    <a href="riso/index.html" class="item-riso"></a>
+
+    <a href="frenchpress/index.html" class="item-frenchpress"></a>
+    
+    <a href="blue/index.html" class="item-blue"></a>
+    
+    <a href="aesop/index.html" class="item-aesop"></a>
+
+    <a href="bag/index.html" class="item-bag"></a>
+    
+    <a href="book/index.html" class="item-book"></a>
+
+    <a href="face/index.html" class="item-face"></a>
+    
+    <script>
+      document.querySelector(".popup-btn").addEventListener("click", function() {
+         document.querySelector(".popup").classList.remove("hidden");
+        });
+        
+      document.querySelector(".close").addEventListener("click", function() {
+        document.querySelector(".popup").classList.add("hidden");
+      });
+
+    </script>
+  </body>
+</html>

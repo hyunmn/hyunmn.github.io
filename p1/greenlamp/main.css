@@ -1,0 +1,71 @@
+.homeicon{
+    background-color:  rgb(223, 43, 43); 
+    width: 35px; 
+    height: 50px; 
+    position: absolute; 
+    z-index: 100; 
+    top:20px; 
+    left: 20px; 
+    border-style: dotted;
+    border-width: 2px;
+    border-color:white;
+
+}
+
+.door-knob{
+    position: absolute; 
+    width:8px; 
+    height:8px; 
+    background-color: white;
+    border-radius: 50%;
+    right:2px;
+    top:20px;
+}
+
+.green-dot{
+    height: 95vh; 
+    border-style: dotted;
+    border-width: 5px;
+    border-color:rgb(0, 144, 103); 
+    z-index:-5;
+    padding:1vh;  
+    margin:0; 
+    text-align: center;
+}
+
+.green-text{
+    padding:50px;
+}
+
+.green-image{
+    position: absolute;
+    left:40%; 
+    width:20%; 
+    border-style: dotted;
+    border-width: 5px;
+    border-color:rgb(0, 144, 103); 
+}
+
+h1{
+    font-size: 32px; 
+}
+p{
+    font-size:24px; 
+    padding: 100px 200px 100px 200px; 
+}
+
+.green-image-nav{
+    position:absolute; 
+    bottom:20px; 
+    left:20px; 
+    width:150px; 
+}
+
+.green-image:hover{
+    filter:sepia() hue-rotate(80deg); 
+}
+
+.list{
+    position:absolute; 
+    bottom:10px;  
+}
