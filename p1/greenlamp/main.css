@@ -69,3 +69,8 @@ p{
     position:absolute; 
     bottom:10px;  
 }
+
+.homeicon:hover{
+    background-color:white; 
+    border-color:rgb(223, 43, 43); 
+}

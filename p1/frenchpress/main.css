@@ -50,3 +50,8 @@ a:visited{
     right:2px;
     top:20px;
 }
+
+.homeicon:hover{
+    background-color:white; 
+    border-color:rgb(223, 43, 43); 
+}

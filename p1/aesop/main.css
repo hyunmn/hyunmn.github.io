@@ -25,6 +25,10 @@ body{
     top:20px;
 }
 
+.homeicon:hover{
+    background-color:white; 
+    border-color:rgb(223, 43, 43); 
+}
 .hidden-image {
     display: none;
     width: 150px;

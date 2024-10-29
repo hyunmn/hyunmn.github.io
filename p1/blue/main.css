@@ -22,6 +22,12 @@
     top:20px;
 }
 
+
+.homeicon:hover{
+    background-color:blue;
+    border-color:white; 
+}
+
 body{
     background-color: blue;
     margin:0;

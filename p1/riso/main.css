@@ -66,3 +66,8 @@ p{
     transform: translate(-50%, -50%);
     z-index:20; 
 }
+
+.homeicon:hover{
+    background-color:white; 
+    border-color:rgb(223, 43, 43); 
+}

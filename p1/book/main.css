@@ -39,3 +39,9 @@ img:hover{
 body{
     background-color: rgb(241, 241, 241);
 }
+
+
+.homeicon:hover{
+    background-color:white; 
+    border-color:rgb(223, 43, 43); 
+}
