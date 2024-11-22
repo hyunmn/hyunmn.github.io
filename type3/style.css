@@ -138,8 +138,7 @@ p {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         flex-direction:column;
-}
-
+    }
 
 }
 
@@ -330,8 +329,7 @@ p {
 
 
         .image-box3:hover .image3{
-            height:11vh;
-            width:auto;
+            width:200px;
         }
 
         .description{
