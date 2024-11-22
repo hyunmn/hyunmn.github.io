@@ -1,0 +1,350 @@
+
+@font-face {
+	font-family: 'GTAmerica';
+	src: url('GT-America-LCGV-Standard-Ultra-Light.woff2') format('woff'); 
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 4px;
+    margin-bottom:4px;
+}
+
+.container2{
+    display: flex;
+    gap:4px;
+    margin-bottom:4px;
+}
+
+.container3{
+    display: flex;
+    gap:4px;
+    margin-bottom:4px;
+}
+/* Default state: Hide scrollbar */
+
+  
+  [class^="box"]::-webkit-scrollbar {
+    width: 0; 
+  }
+  
+  [class^="box"]:hover::-webkit-scrollbar {
+    width: 16px; 
+  }
+  
+  [class^="box"]:hover::-webkit-scrollbar-track {
+    background:#f0f0f0 ; 
+  }
+  
+  [class^="box"]:hover::-webkit-scrollbar-thumb {
+    background-color: #919090; 
+    border-radius: 0px; 
+    border: 7px solid #f0f0f0;
+  }
+  
+
+
+@media screen and (min-width:1380px){ 
+    
+    
+  .box:hover{
+    border: 1px solid #f0f0f0;
+    transition-delay:0.1s;
+    width:400px;
+}
+
+.box2:hover{
+    border: 1px solid #f0f0f0;
+    width:400px;
+}
+
+
+}
+@media screen and (min-width:0px) and (max-width: 1380px) { 
+    .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap:4px;
+            margin-bottom:4px; 
+            flex-direction:column;
+    }
+
+    .container2 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap:4px;
+            margin-bottom:4px; 
+            flex-direction:column;
+    }
+
+    .container3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:4px;
+        margin-bottom:4px; 
+        flex-direction:column;
+}
+
+    
+    
+}
+
+@media screen and (min-width:0px) and (max-width: 975px) { 
+    .container {
+            /* display: flex; */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* gap:4px;
+            margin-bottom:4px;  */
+            flex-direction:column;
+        }
+
+    .container2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            flex-direction:column;
+    }
+
+    .container3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction:column;
+}
+    
+
+}
+
+@media screen and (min-width:0px) and (max-width: 600px) { 
+    .container {
+            /* display: flex; */
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            /* gap:4px;
+            margin-bottom:4px;  */
+            flex-direction:column;
+        }
+
+     .container2 {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            flex-direction:column;
+    }
+
+    .container3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction:column;
+}
+
+
+}
+
+        body {
+            display: flex;
+            background-color: #f0f0f0;
+            flex-direction: column;
+            font-size: 1rem;
+            font-family: GTAmerica; 
+        }
+
+        .body-wrap{
+            border: 1px solid #000000;
+            padding: 4px;
+        }
+
+
+        .wrap{
+            border: 1px solid #000000;
+            padding: 4px;
+        }
+
+        [class^="wrap"]{
+            border: 1px solid #000000;
+            padding: 4px;
+        }
+
+
+
+        .box0{
+            height: 82px;
+            border: 1px solid #000000;
+            padding: 20px;
+            margin:0;
+        }
+
+        .box {
+            height: 250px;
+            overflow: auto;
+            border: 1px solid #000000;
+            padding: 20px;
+            margin:0; 
+        }
+        .box2 {
+            height: 18vh;
+            overflow: auto;
+            border: 1px solid #000000;
+            padding: 20px;
+        }
+
+        .box3{
+            border: 1px solid #000000;
+            padding: 20px;
+            height:11vh;
+            overflow:auto;
+        }
+
+        .box4{
+            border: 1px solid #000000;
+            padding: 20px;
+            height: 3vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .image-box {
+            height: 250px;
+            border: 1px solid #000000;
+            padding: 20px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .image-box2 {
+            height:18vh;
+            border: 1px solid #000000;
+            padding: 20px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align:center;
+        }
+
+        .image-box3{
+            height:11vh;
+            border: 1px solid #000000;
+            padding: 20px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align:center;
+        }
+
+        img{
+            width:110px; 
+            padding:4px;
+        }
+
+
+
+
+
+        /* ////////////////////////////////////////
+        hover effects
+        //////////////////////////////////////// */
+
+        .wrap:hover{
+            border: 1px solid #f0f0f0;
+            transition-delay:0.2s;
+        }
+
+        .wrap1:hover{
+            border: 1px solid #f0f0f0;
+            transition-delay:0.1s;
+        }
+
+        .wrap2:hover{
+            border: 1px solid #f0f0f0;
+            transition-delay:0.15s;
+        }
+
+        .wrap3:hover{
+            border: 1px solid #f0f0f0;
+            transition-delay:0.2s;
+        }
+
+        .wrap4:hover{
+            border: 1px solid #f0f0f0;
+            transition-delay:0.25s;
+        }
+
+        .wrap5:hover{
+            border: 1px solid #f0f0f0;
+            transition-delay:0.3s;
+        }
+
+
+        .box:hover{
+            border: 1px solid #f0f0f0;
+            transition-delay:0.1s;
+        }
+
+        .box0:hover{
+            border: 1px solid #f0f0f0;
+            width:35%;
+        }
+
+        .box2:hover{
+            border: 1px solid #f0f0f0;
+        }
+
+        .box3:hover{
+            border: 1px solid #f0f0f0;
+        }
+        
+        .box4:hover{
+            border: 1px solid #f0f0f0;
+        }
+
+
+        .image-box:hover{
+            border: 1px solid #f0f0f0;
+        }
+        .image-box:hover .image1{
+            height:25vh;
+            width:auto;
+        }
+
+
+        .image-box2:hover{
+            border:none;
+        }
+
+        .image-box3:hover{
+            border:none;
+        }
+
+        .image-box2:hover .image2{
+            height:16vh;
+            width:auto;
+        }
+
+
+        .image-box3:hover .image3{
+            height:11vh;
+            width:auto;
+        }
+
+        .description{
+            width:100px; 
+            background-color:#f0f0f0;
+        }
+
+        a{
+            color:black;
+        }
+
+        .work{
+            font-size:9pt;
+        }
+
+        
