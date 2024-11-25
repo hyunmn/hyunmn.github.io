@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+@font-face {
+	font-family: 'Channa';
+	src: url('fonts/ChannaVF.ttf') format('truetype-variations'); 
+}
+
+@font-face {
+	font-family: 'Ultrathin';
+	src: url('fonts/Ultrathin.otf') format('opentype'); 
+}
+
+@font-face {
+	font-family: 'Light';
+	src: url('fonts/Light.otf') format('opentype'); 
+}
+
+@font-face {
+	font-family: 'Medium';
+	src: url('fonts/Medium.otf') format('opentype'); 
+}
+
+
+:root{
+	--move:-100; 
+	--color: black; 
+}
+
+body{
+	font-family: 'Channa'; 
+	font-style: normal;
+	font-size: 30px;
+	line-height: 1.5;
+	margin:0; 
+	padding:0;
+	color:  var(--color);
+	background-color:rgb(244, 241, 241);
+}
+
+.magmatic, .magmatic *{
+	font-variation-settings: 'MOVE' var(--move);
+}
+
+
+#intro{
+	font-size:20vw;
+	line-height: 1;
+	text-align: center;
+	height:92vh; 
+	width: 100vw; 
+	display:flex; 
+	justify-content: center;
+	align-items:center; 
+	z-index:-1; 
+}
+
+h1{
+	font-family:  Light, sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+	color:black;
+	padding:10px;
+	text-align:center;
+}
+h2{
+	font-family: Light, sans-serif;
+	font-size: 1.2rem;
+	color:black;
+}
+
+.info{
+	font-family:  Light, sans-serif;
+	font-size: 1rem;
+	padding:10px;
+	position:absolute; 
+	top:0; 
+	left:0;
+	width:420px;
+	line-height: 1.1rem;
+}
+.title{
+	position:sticky;
+	top: 0;
+	margin:0; 
+}
+
+button{
+	width:30px; 
+	height:30px;
+	background-color:black;
+	color:rgb(244, 241, 241);
+	font-family:Medium,sans-serif; 
+	border:none;
+	font-size:1.3rem;
+}
+button:hover{
+	background-color:rgb(244, 241, 241);
+	color:black; 
+	border:none;
+}
+
+.buttons{
+	position: absolute; 
+	bottom: 10px; 
+	left:10px;
+}
+
+.artwork{
+	position: absolute; 
+	bottom: 10px; 
+	right:10px;
+	font-family: Light;
+	font-size:0.9rem;
+	display:flex;
+	align-items:flex-end;
+}
+
+img{
+	width:100px;
+	margin:0;
+	padding:0;
+}
+
+img:hover{
+	width:400px; 
+	z-index:10;
+	transition: width 0.2s ease;
+}
+
+.background-blur {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: white; 
+	z-index: 1;
+	opacity: 0;
+	pointer-events: none; 
+	transition: opacity 0.2s ease-in;
+  }
+  
+  img:hover ~ .background-blur {
+	opacity: 0.8;
+  }
+
+a{
+	text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+h2:hover{
+	opacity:60%;
+	cursor:pointer;
+}
+
+a:hover{
+	opacity:60%;
+}
+
+.info2{
+	font-family:  Light, sans-serif;
+	font-size: 1rem;
+	padding:10px;
+	position:absolute; 
+	top:0; 
+	right:0;
+	line-height: 1.1rem;
+}
